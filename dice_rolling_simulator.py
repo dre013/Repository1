@@ -1,6 +1,7 @@
 import random
 
 def function():
+    
     def roll_dice():
 
         dice_drawing = {
