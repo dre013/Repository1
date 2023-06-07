@@ -7,7 +7,7 @@ def binary_search(list, element):
     while(start<=end):
         print('Step', steps, ':', str(list[start:end+1]))
 
-        steps = steps + 1
+        steps += 1
         middle = (start + end) // 2
 
         if element == list[middle]:
